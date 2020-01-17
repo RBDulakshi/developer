@@ -235,7 +235,24 @@ header nav ul li a:hover {
 	width: 20px;
 }
 
-.social-network img:hover {
+.team-block:hover .social-network img:hover {
 	height: 40px;
 	width: 40px;
+	transition: 0.3s ease-out;
+}
+
+.team-block:hover .team-description {
+	background-color: #1b262c;
+	transition: 0.3s ease;
+}
+
+.team-block:hover .title h3,
+.team-block:hover .title span {
+	color: white;
+	transition: 0.3s ease;
+}
+
+.team-block:hover .team-description p {
+	color: #f9f9f9;
+	transition: 0.3s ease;
 }
