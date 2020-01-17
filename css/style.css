@@ -256,3 +256,26 @@ header nav ul li a:hover {
 	color: #f9f9f9;
 	transition: 0.3s ease;
 }
+
+.stats {
+	background: url(..//img/stats_bg.png);
+	padding-top: 150px;
+	padding-bottom: 150px;
+	margin-top: 80px;
+}
+
+.stats span {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.stats .stats-title {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.stats img {
+	height: 80px;
+	width: 80px;
+}
