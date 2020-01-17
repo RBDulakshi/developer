@@ -60,6 +60,14 @@
 		text-decoration: none;
 
 	}
+
+	.team-area .sub-heading {
+		margin-bottom: -30px;
+	}
+
+	.team-block {
+		margin-top: 60px;
+	}
 }
 
 @media screen and (max-width:390px) {
@@ -96,5 +104,15 @@
 		background-color: #128fcb;
 		font-weight: bold;
 	}
+
+	.team-area .sub-heading {
+		margin-bottom: -30px;
+	}
+
+	.team-block {
+		margin-top: 60px;
+	}
+
+
 
 }
